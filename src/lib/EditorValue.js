@@ -2,7 +2,7 @@
 import {ContentState, EditorState, convertToRaw, convertFromRaw} from 'draft-js';
 import {stateToHTML} from 'draft-js-export-html';
 import {stateFromHTML} from 'draft-js-import-html';
-import {stateToMarkdown} from 'draft-js-export-markdown';
+import {stateToMarkdown} from '@amplifysa/draft-js-export-markdown';
 import {stateFromMarkdown} from 'draft-js-import-markdown';
 
 import type {DraftDecoratorType as Decorator} from 'draft-js/lib/DraftDecoratorType';
